@@ -19,7 +19,7 @@ Results in the paper were generated using Julia 0.6.4, Python 3.8.5, JuMP 0.18.5
 * case1, case2, and case3: OLS regression for d_x = 3, d_x = 10, and d_x = 100, respectively
 * case4, case5, and case6: Lasso regression for d_x = 3, d_x = 10, and d_x = 100, respectively
 * case7, case8, and case9: Ridge regression for d_x = 3, d_x = 10, and d_x = 100, respectively
-* "Naive Radius" corresponds to Algorithm 1 for specifying the radius
-* "Scrambled Radius" corresponds to Algorithm 2 for specifying the radius
-* "Doubleest Radius" corresponds to Algorithm 3 for specifying the radius
-* "Tailored Radius" corresponds to choosing the radius with the "best out-of-sample performance"
+* "_Naive_ Radius" corresponds to Algorithm 1 for specifying the radius
+* "_Scrambled_ Radius" corresponds to Algorithm 2 for specifying the radius
+* "_Doubleest_ Radius" corresponds to Algorithm 3 for specifying the radius
+* "_Tailored_ Radius" corresponds to choosing the radius with the "best out-of-sample performance"
