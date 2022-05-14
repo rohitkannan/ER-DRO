@@ -5,7 +5,7 @@ Julia codes for the paper "Residuals-based Distributionally Robust Optimization 
 Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0, and GLMNet 0.3.0. Most of the code should readily port over to later versions of Julia.
 
 
-**Folder Contents**
+**Folder Contents:**
 * The main files for the different methods lie in the "main_files" folder
 * Implementations of the different solution methods are in the "solution_methods" folder
 * Implementations of the different radius selection strategies lie in the "radius_selection" folder
