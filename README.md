@@ -4,6 +4,8 @@ Julia codes for the paper "Residuals-based Distributionally Robust Optimization 
 
 Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0, and GLMNet 0.3.0.
 
+
+**Folder Contents**
 * The main files for the different methods lie in the "main_files" folder
 * Implementations of the different solution methods are in the "solution_methods" folder
 * Implementations of the different radius selection strategies lie in the "radius_selection" folder
@@ -13,7 +15,7 @@ Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0
 * Python scripts for plotting the results are in the "plotting_scripts" folder
 
 
-Below are the case details:
+**Case Details:**
 * case1, case2, and case3: OLS regression for d_x = 3, d_x = 10, and d_x = 100, respectively
 * case4, case5, and case6: Lasso regression for d_x = 3, d_x = 10, and d_x = 100, respectively
 * case7, case8, and case9: Ridge regression for d_x = 3, d_x = 10, and d_x = 100, respectively
