@@ -1,4 +1,4 @@
-# ER-DRO: Codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information"
+# Codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information"
 
 The included PDF is the latest version of the paper.
 
