@@ -1,8 +1,8 @@
-# ER-DRO: Julia codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information"
+# ER-DRO: Codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information"
 
 The included PDF is the latest version of the paper.
 
-Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0, and GLMNet 0.3.0. Most of the code should readily port over to later versions of Julia.
+Results in the paper were generated using Julia 0.6.4, Python 3.8.5, JuMP 0.18.5, Gurobi 8.1.0, GLMNet 0.3.0, and NumPy 1.19.2. Most of the code should readily port over to later versions of Julia.
 
 
 **Folder Contents:**
