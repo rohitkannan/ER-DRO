@@ -2,7 +2,7 @@
 
 Julia codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information" (see the included PDF for the latest version)
 
-Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0, and GLMNet 0.3.0.
+Results in the paper were generated using Julia 0.6.4, JuMP 0.18.5, Gurobi 8.1.0, and GLMNet 0.3.0. Most of the code should readily port over to later versions of Julia.
 
 
 **Folder Contents**
