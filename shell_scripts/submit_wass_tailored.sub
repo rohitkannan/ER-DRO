@@ -1,0 +1,15 @@
+# HTCondor submit file for running Wasserstein ER-DRO instances with different radii
+executable=shell_wass_tailored.sh
+getenv=true
+log=main_log.txt
+output=main_out.txt
+error=main_errors.txt
+should_transfer_files=Yes
+when_to_transfer_output=ON_EXIT
+transfer_input_files=main_wass_tailored.jl,returns_model.jl,maxParameters.jl,params_case1_wass_tailored.jl,randomSeeds.jl,portfolio_10.jl,solveWassersteinModel.jl,evaluateSoln.jl,estimateSolnCost.jl,genERSAAScenarios.jl,regressionMethods.jl
+arguments = $(modRepNum) $(degNum) $(dataRepNum) $(riskNum)
+request_memory=1GB
+request_disk=1GB
+max_idle=700
+request_cpus=2
+queue modRepNum,degNum,dataRepNum,riskNum from instances_case1_wass_tailored.txt

@@ -1,0 +1,14 @@
+# HTCondor submit file for running FI-SAA instances
+executable=shell_saa.sh
+getenv=true
+log=main_log.txt
+output=main_out.txt
+error=main_errors.txt
+should_transfer_files=Yes
+when_to_transfer_output=ON_EXIT
+transfer_input_files=main_saa.jl,returns_model.jl,maxParameters.jl,params_case1_saa.jl,randomSeeds.jl,portfolio_10.jl,solveModel.jl
+arguments = $(modRepNum) $(degNum) $(covRepNum)
+request_memory=10GB
+request_disk=1GB
+request_cpus=2
+queue modRepNum,degNum,covRepNum from instances_case1_saa.txt

@@ -1,0 +1,14 @@
+# HTCondor submit file for running Wasserstein ER-DRO instances with Algorithm 1
+executable=shell_wass_naive.sh
+getenv=true
+log=main_log.txt
+output=main_out.txt
+error=main_errors.txt
+should_transfer_files=Yes
+when_to_transfer_output=ON_EXIT
+transfer_input_files=main_wass_naive.jl,returns_model.jl,maxParameters.jl,params_case1_wass_naive.jl,randomSeeds.jl,portfolio_10.jl,solveWassersteinModel.jl,evaluateSoln.jl,estimateSolnCost.jl,genERSAAScenarios.jl,regressionMethods.jl,getNaiveWassersteinRadius.jl
+arguments = $(modRepNum) $(degNum) $(dataRepNum) $(sampSizeNum)
+request_memory=1GB
+request_disk=1GB
+request_cpus=2
+queue modRepNum,degNum,dataRepNum,sampSizeNum from instances_case1_wass_naive.txt
