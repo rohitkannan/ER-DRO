@@ -1,4 +1,4 @@
-# Codes for the paper "Residuals-based Distributionally Robust Optimization with Covariate Information"
+# Codes for the paper "Residuals-Based Distributionally Robust Optimization with Covariate Information"
 
 The included <a href = "https://github.com/rohitkannan/ER-DRO/blob/main/Residuals-based%20DRO%20with%20covariate%20information%20(R1).pdf" target="_blank">PDF</a> is the latest version of the paper.
 
